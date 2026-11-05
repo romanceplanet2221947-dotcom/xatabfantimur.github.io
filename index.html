@@ -1,0 +1,46 @@
+<!-- Карточка игры Slime Rancher от Тимура -->
+<div style="background: rgba(30, 30, 30, 0.85); border: 2px solid #3a3a3a; border-radius: 12px; padding: 25px; max-width: 450px; font-family: 'Segoe UI', sans-serif; color: #fff; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+    
+    <!-- Название игры -->
+    <h2 style="color: #00d2ff; font-size: 28px; margin-top: 0; margin-bottom: 10px;">Slime Rancher</h2>
+    
+    <!-- Теги и моды -->
+    <div style="background: #ff9900; color: #000; font-weight: bold; display: inline-block; padding: 4px 10px; border-radius: 4px; font-size: 13px; margin-bottom: 20px;">
+        Моды: SRML + More Commands
+    </div>
+    
+    <!-- Описание -->
+    <p style="font-size: 15px; line-height: 1.6; color: #e0e0e0; margin-bottom: 25px;">
+        Классная игра про разноцветных слаймов! В этот репак я сам добавил установщик модов SRML и чит-команды.
+    </p>
+    
+    <!-- Интерактивная кнопка -->
+    <a href="#" id="downloadBtn" style="display: block; text-align: center; background: #ffaa00; color: #000; font-weight: bold; text-decoration: none; padding: 14px; border-radius: 6px; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(255, 170, 0, 0.2);">
+        Скачать Торрент
+    </a>
+
+</div>
+
+<!-- Скрипт перенаправления на Яндекс Диск -->
+<script>
+    document.getElementById('downloadBtn').addEventListener('click', function(event) {
+        event.preventDefault(); // Защита от стандартного перехода
+        
+        // Сюда между кавычек вставь свою реальную ссылку на Яндекс Диск:
+        var yandexDiskUrl = "https://disk.yandex.ru/d/mvR8x4kK5uFsxQ"; 
+        
+        // Открывает скачивание в новой вкладке, чтобы сайт не закрывался
+        window.open(yandexDiskUrl, '_blank'); 
+    });
+</script>
+
+<!-- Эффекты красивого наведения для кнопки -->
+<style>
+    #downloadBtn:hover {
+        background: #ffcc00 !important;
+        box-shadow: 0 0 20px rgba(255, 204, 0, 0.6) !important;
+        transform: translateY(-2px);
+        cursor: pointer;
+    }
+</style>
+
